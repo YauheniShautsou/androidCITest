@@ -8,6 +8,9 @@ android:
     - build-tools-26.0.2
     - android-26
 
+before_install:
+    - npm i -g npm@1.0.0
+
 install:
     - npm install -g appium@1.9.1
 
