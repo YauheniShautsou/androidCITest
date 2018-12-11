@@ -4,9 +4,8 @@ jdk: oraclejdk11
 
 android:
   components:
-  - platform-tools
-  - tools
-  - android-25
+  - build-tools-26.0.2
+  - android-26
 
 install:
   - brew install awscli
