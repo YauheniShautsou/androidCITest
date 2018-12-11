@@ -1,11 +1,13 @@
-os: osx
+#os: osx
 language: android
 jdk: oraclejdk11
 
 android:
   components:
-  - build-tools-26.0.2
-  - android-26
+    - tools
+    - platform-tools
+    - build-tools-26.0.2
+    - android-26
 
 install:
   - brew install awscli
