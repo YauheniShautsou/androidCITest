@@ -1,4 +1,5 @@
 language: android
+sudo: required
 jdk: oraclejdk11
 
 android:
@@ -9,9 +10,9 @@ android:
     - android-26
 
 install:
-    - brew install node
-    - node -v
-    - npm - v
+    - sudo apt update
+    - sudo apt install nodejs
+    - sudo apt install npm
     - sudo apt-get install appium@1.9.1
 
 before_script:
