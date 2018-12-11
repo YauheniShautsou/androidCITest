@@ -1,6 +1,6 @@
 os: osx
 language: android
-jdk: oraclejdk8
+jdk: oraclejdk10
 
 android:
   components:
