@@ -9,6 +9,9 @@ android:
     - android-26
 
 install:
+    - brew install node
+    - node -v
+    - npm - v
     - sudo apt-get install appium@1.9.1
 
 before_script:
