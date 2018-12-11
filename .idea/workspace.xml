@@ -34,13 +34,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="properties" value="6" />
-          <entry key="yml" value="318" />
+          <entry key="yml" value="320" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Properties" value="6" />
-          <entry key="YAML" value="318" />
+          <entry key="YAML" value="320" />
         </counts>
       </usages-collector>
     </session>
