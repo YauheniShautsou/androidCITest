@@ -12,7 +12,7 @@ install:
     - sudo apt update
     - sudo apt install nodejs
     - sudo apt install npm
-    - npm install appium
+    - npm install -g appium@1.9.1
 
 before_script:
   - echo no | android create avd --force -n test -t android-25 --abi armeabi-v7a
