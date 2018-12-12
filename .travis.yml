@@ -12,7 +12,7 @@ install:
     - sudo apt update
     - sudo apt install nodejs
     - sudo apt install npm
-    - sudo npm config set registry="http://registry.npmjs.org/"
+    - npm config set strict-ssl false
     - sudo npm install -g appium@1.9.1
 
 before_script:
