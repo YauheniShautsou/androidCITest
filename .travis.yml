@@ -10,10 +10,9 @@ android:
 
 install:
     - sudo apt update
-    - sudo apt install nodejs@8.10.0
-    - sudo apt install npm@3.5.2
-    - nodejs -v
-    - npm -v
+    - sudo apt install nodejs
+    - sudo apt install npm
+    - npm config set registry="http://registry.npmjs.org/"
     - npm install -g appium@1.9.1
 
 before_script:
