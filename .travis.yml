@@ -12,6 +12,8 @@ install:
     - sudo apt update
     - sudo apt install nodejs
     - sudo apt install npm
+    - nodejs -v
+    - npm -v
     - npm install -g appium@1.9.1
 
 before_script:
