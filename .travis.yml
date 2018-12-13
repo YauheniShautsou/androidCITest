@@ -35,7 +35,7 @@ install:
     - npm install -g appium
 
 before_script:
-  - appium
+#  - appium
   - emulator -list-avds
 #  - echo no | android create avd --force -n test -t android-22 --abi armeabi-v7a
 #  - emulator -avd test -no-audio -no-window &
