@@ -19,9 +19,9 @@ install:
     - node -v
     - npm -v
     - npm config set strict-ssl false
-    - sudo npm cache clean -f
-    - sudo npm install -g n
-    - sudo npm install -g appium
+#    - sudo npm cache clean -f
+#    - sudo npm install -g n
+    - npm install -g appium
 
 before_script:
   - echo no | android create avd --force -n test -t android-25 --abi armeabi-v7a
