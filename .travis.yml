@@ -16,7 +16,7 @@ install:
     - nvm --version
     - nvm install 8.10.0
     - nvm use 8.10.0
-    - nodejs -v
+    - node -v
     - npm -v
     - npm config set strict-ssl false
     - sudo npm cache clean -f
