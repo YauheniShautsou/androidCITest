@@ -16,7 +16,7 @@ android:
     - build-tools-$ANDROID_BUILD_TOOLS_VERSION
     - android-$ANDROID_API_LEVEL
     - sys-img-x86-android-25
-    - sys-img-armeabi-v7a-android-22
+    - sys-img-armeabi-v7a-android-25
     - extra-google-google_play_services
 
 install:
