@@ -33,9 +33,9 @@ install:
 #    - sudo npm cache clean -f
 #    - sudo npm install -g n
     - npm install -g appium@1.9.1
-    - cd /AndroidProj1
-    - sudo dpkg -i shashlik_0.9.3.deb
-    - /opt/shashlik/bin/shashlik-install Notepad.apk
+#    - cd /AndroidProj1
+#    - sudo dpkg -i shashlik_0.9.3.deb
+#    - /opt/shashlik/bin/shashlik-install Notepad.apk
 
 before_script:
 #  - emulator -list-avds
