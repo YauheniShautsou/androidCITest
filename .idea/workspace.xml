@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a06cbda1-64d5-4efc-9609-3582a7f58d87" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-    </list>
+    <list default="true" id="a06cbda1-64d5-4efc-9609-3582a7f58d87" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,18 +56,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
-              <caret line="161" column="51" selection-start-line="161" selection-start-column="51" selection-end-line="161" selection-end-column="51" />
-              <folding>
-                <marker date="1533898874827" expanded="true" signature="786:826" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/projectApp/pages/base/BasePage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
@@ -81,8 +67,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="43" column="14" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
+            <state relative-caret-position="561">
+              <caret line="33" column="28" lean-forward="true" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -122,7 +108,7 @@
         <entry file="file://$PROJECT_DIR$/serenity.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -501,13 +487,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/projectApp/steps/GeneralPageSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/projectApp/tests/noteTests/AddNoteTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -526,17 +505,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/serenity.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/projectApp/pages/base/BasePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/projectApp/steps/GeneralPageSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serenity.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -552,8 +538,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="43" column="14" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
+        <state relative-caret-position="561">
+          <caret line="33" column="28" lean-forward="true" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
         </state>
       </provider>
     </entry>
