@@ -32,7 +32,7 @@ install:
 #    - npm config set strict-ssl false
 #    - sudo npm cache clean -f
 #    - sudo npm install -g n
-    - npm install -g appium@1.9.1
+    - npm install -g appium@1.9.0
 
 before_script:
   - echo no | android create avd --force --name Galaxy_Nexus_API_25 -t android-25 --abi $ANDROID_ABI &
