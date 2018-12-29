@@ -37,7 +37,7 @@ install:
 before_script:
   - echo no | android create avd --force --name Galaxy_Nexus_API_25 -t android-25 --abi $ANDROID_ABI &
   - emulator -avd Galaxy_Nexus_API_25 -no-audio -no-window &
-  - list-avds
+  - -list-avds
   - android list targets
   - android-wait-for-emulator
   - adb shell input keyevent 82 &
