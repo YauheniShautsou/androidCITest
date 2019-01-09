@@ -35,7 +35,7 @@ install:
     - npm install -g appium@1.9.0
 
 before_script:
-  - echo no | android create avd --force -n Galaxy_Nexus_API_25 -t android-25 --abi $ANDROID_ABI &
+  - echo no | android create avd --force -n Galaxy_Nexus_API_25 -t android-25 --abi $ANDROID_ABI
   - emulator -avd Galaxy_Nexus_API_25 -no-audio -no-window &
   - android list targets
   - android list avd
